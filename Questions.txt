@@ -1,0 +1,34 @@
+CMPUT404 Lab 9
+
+Question 1: What do you see in the browser? When you open another tab and perform a click/drag action, what happens?
+
+I see a black window with a bunny in it. The click/drag action will be updated in real-time in both browsers. If you move the bunny in one browser, the bunny will move in the same way in the second.
+
+Question 2: What are some of the differences between TypeScript and JavaScript?
+
+TypeScript is a superset of JavaScript. Any valid JavaScript is also valid TypeScript.
+Typescript comes with static typing which will check the types upon compile time and will throw errors is types are not being followed.
+Typescript also enables the IDEs to give useful information while coding with the type information.
+
+Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
+
+A web application bundler is useful for modern web projects because it gives you a lot of features with minimal configuration.
+These features help with the development process.
+
+Some features are as follows:
+- transpilation (ts -> js)
+- hot reload-able dev server
+- automatic optimization (tree shaking, minification, content hashing, code splitting)
+
+Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
+
+There are 4 states that the readyState can be in:
+0 - CONNECTING: Socket exists and is not open to connection
+1 - OPEN: Socket exists and is ready(open) for connection
+2 - CLOSING: Connection is closing
+3 - CLOSED: Connection has been closed
+
+
+Question 5: What's the link to your github repo?
+
+https://github.com/AnotherDayOfTrying/nodejs-ws-lab
