@@ -12,10 +12,21 @@ Typescript also enables the IDEs to give useful information while coding with th
 
 Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
 
-A web application bundler is 
+A web application bundler is useful for modern web projects because it gives you a lot of features with minimal configuration.
+These features help with the development process.
+
+Some features are as follows:
+- transpilation (ts -> js)
+- hot reload-able dev server
+- automatic optimization (tree shaking, minification, content hashing, code splitting)
 
 Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
 
+There are 4 states that the readyState can be in:
+0 - CONNECTING: Socket exists and is not open to connection
+1 - OPEN: Socket exists and is ready(open) for connection
+2 - CLOSING: Connection is closing
+3 - CLOSED: Connection has been closed
 
 
 Question 5: What's the link to your github repo?
